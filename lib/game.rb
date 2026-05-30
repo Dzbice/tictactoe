@@ -9,9 +9,9 @@ class Game
   end
 
   def mainloop
-    turn_count = 0
+    turn_count = 1
     loop do
-      if turn_count >= 9
+      if turn_count > 9
 
         puts 'Draw!'
         puts @board
